@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-family: monospace;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  border-top: 1px solid turquoise;
+  border-bottom: 1px solid turquoise;
+  padding: 10px
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4A4A4A; 
+  max-width: 400px; 
+  margin: 0 auto; 
+  border-radius: 8px;
+}
+
+.monto_en_Pesos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.label_input{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.label_selector{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+button{
+  background-color: turquoise;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  padding: 10px 80px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.monto_en_Pesos{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#id_resultado{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#selector{
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  padding: 10px 80px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+#input_monto{
+  font-size: 15px;
+  border: none;
+  padding: 10px 25px; 
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.estadistica {
+  background-color: white;
+  padding: 20px; 
+  border-radius: 8px; 
+  margin: 20px; 
+}

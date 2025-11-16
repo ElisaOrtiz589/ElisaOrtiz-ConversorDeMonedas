@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="eS">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CONVERSOR DE MONEDAS</title>
+
+  <!--chart.js-->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <link rel="stylesheet" href="./assets/css/estilos.css">
+</head>
+<body>
+  <br>
+  
+  <h1>Conversor de monedas Nacional</h1>
+  
+  
+  <section class="app">
+    <div class="monto_en_Pesos">
+      <!--INGRESAR MONTO EN PESOS-->
+      
+      <p id="id_monto"></p>
+      <label class="label_input" for="input_monto">Pesos CLP</label>
+      <input id="input_monto" type="number" placeholder="Ingrese el monto en CLP">
+
+      <!-- ESCOGER TIPO DE MONEDA  -->
+      <p id="id_tipoMoneda"></p>
+      <label class="label_selector" for="selector">Moneda a convertir</label>
+      <select name="selector" id="selector"> 
+        <!-- OPCIONES DE SELECTOR -->
+        <option value="dolar">Dolar</option>
+        <option value="euro">Euro</option>
+      </select>
+      <!-- BOTON -->
+      <button>Buscar</button>
+      
+      <!-- RESULTADO -->
+      <p><span id="id_resultado">...</span></p>
+    </div>
+  
+  </section>
+
+  <!-- ESTADISTICA -->
+  <div class="estadistica">
+    <Canvas id="myChart"></Canvas>
+  </div>
+
+  <!-- JS -->
+  <script src="assets/js/estadistica.js"></script>
+  <script src="assets/js/script.js"></script>
+
+</body>
+</html>
